@@ -10,3 +10,11 @@
 # Code
 
 # Contributors
+{% for stu in site.stu %}
+  <h2>
+    <a href="{{ stu.url }}">
+      {{ stu.user }} - {{ stu.name }}
+    </a>
+  </h2>
+  <p>{{ stu.content | markdownify }}</p>
+{% endfor %}
