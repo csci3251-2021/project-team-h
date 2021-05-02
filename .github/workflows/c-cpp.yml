@@ -13,9 +13,6 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-    - name: gcc code.c -o code; ./code      
+    - name: Hello World      
       run: gcc code.c -o code; ./code
-    - name: make check
-      run: make check
-    - name: make distcheck
-      run: make distcheck
+
