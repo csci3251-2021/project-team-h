@@ -1,4 +1,4 @@
-name: project-team-h
+name: Hello World
 
 on:
   push:
